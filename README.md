@@ -2,6 +2,7 @@
 `sphep` is a tiny C++ tool for generating evenly distributed points on a d-dimensional sphere. It works by generating random points on the sphere and redistributing them by a constrained n-body simulation.
 Requirements:
 - Eigen3 library
+
 ### test
 The generator can be tested using the spheptest inside of the test subfolder.
 The output points can be visualized using `gnuplot`:
